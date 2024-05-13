@@ -7,9 +7,8 @@ const page = () => {
     const [lotteryWinnerNumber, setLotteryWinnerNumber] = useState(null)
     const [isPaused, setIsPaused] = useState(false)
     const [color,setColor] = useState('red')
-    const changeColors = () => {
-        setColor(color === "grey" ? "red" : "grey")
-    }
+    
+    
     useEffect(() => {
         if(!isPaused){
             setTimeout(() => {
