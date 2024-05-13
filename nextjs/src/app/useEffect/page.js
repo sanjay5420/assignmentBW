@@ -6,7 +6,6 @@ const page = () => {
     const lotteryNumbers = [4123,4225,2332,4332,4352,3215,32345, 32156, 23231]
     const [lotteryWinnerNumber, setLotteryWinnerNumber] = useState(null)
     const [isPaused, setIsPaused] = useState(false)
-    const [color,setColor] = useState('red')
     
     
     useEffect(() => {
